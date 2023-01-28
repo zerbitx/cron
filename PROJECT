@@ -1,3 +1,7 @@
 domain: mugblood.coffee
 repo: github.com/zerbitx/cron
+resources:
+- group: mugblood.coffee
+  kind: CronJob
+  version: v1
 version: "2"
